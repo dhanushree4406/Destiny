@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <i class="fa-solid fa-user"></i>
+
+    <style>
+        nav{
+            display: flex;
+            height: 50px;
+            width: 50%;
+            justify-content: space-evenly;
+            position: absolute;
+            top: 0px;
+            right: 0px;
+
+        }
+
+        h1{
+            text-shadow: 2px;
+            color: red;
+            font-size: 50px;
+        }
+
+        #engagement1{
+            display: flex;
+            position: absolute;
+            top: 50px;
+            justify-content: space-evenly;
+        }
+
+        #ecard{
+            height: 100vh;
+            width: 100vw;
+            background-image: url("https://th.bing.com/th/id/OIP.OU2pXkWJntCxwfScHJO3-QHaKe?rs=1&pid=ImgDetMain");
+            background-repeat: no-repeat;
+            background-size:200px 250px;
+            position: absolute;
+            top: 320px;
+            left: 20px;
+        }
+
+        #edress{
+            height: 100vh;
+            width: 100vw;
+            background-image: url("https://th.bing.com/th/id/OIP.RQWaAQbQcDYETqTYZ8-1jQHaJQ?rs=1&pid=ImgDetMain");
+            background-repeat: no-repeat;
+            background-size:200px 250px;
+            position: absolute;
+            top: 320px;
+            left: 320px;
+        }
+
+        #ehairstyle{
+            height: 100vh;
+            width: 100vw;
+            background-image: url("https://th.bing.com/th/id/OIP.4LG2jsqglkhoc8O_Puz8sQHaJQ?rs=1&pid=ImgDetMain");
+            background-repeat: no-repeat;
+            background-size:200px 250px;
+            position: absolute;
+            top: 320px;
+            left: 620px;
+        }
+
+        #edecoration{
+            height: 100vh;
+            width: 100vw;
+            background-image: url("https://www.shaadidukaan.com/vogue/wp-content/uploads/2020/03/Whimsical-floral-structure.jpg");
+            background-repeat: no-repeat;
+            background-size:200px 250px;
+            position: absolute;
+            top: 320px;
+            left: 920px;
+        }
+
+        #para1{
+            display: flex;
+            font-size: 20px;
+            justify-content: space-evenly;
+            position: absolute;
+            top: 650px;
+        }
+
+
+
+
+        #engagement2{
+            display: flex;
+            position: absolute;
+            top: 550px;
+            justify-content: space-evenly;
+        }
+
+        #efood{
+            height: 100vh;
+            width: 100vw;
+            background-image: url("https://th.bing.com/th/id/OIP.i6uPbyr3Se-yg5VQOfhw9gAAAA?rs=1&pid=ImgDetMain");
+            background-repeat: no-repeat;
+            background-size:200px 250px;
+            position: absolute;
+            top: 200px;
+            left: 20px;
+        }
+
+        #ering{
+            height: 100vh;
+            width: 100vw;
+            background-image: url("https://mymandap.in/wp-content/uploads/2021/12/Our-World-on-Twitter.png");
+            background-repeat: no-repeat;
+            background-size:200px 250px;
+            position: absolute;
+            top: 200px;
+            left: 320px;
+        }
+
+        #ecakes{
+            height: 100vh;
+            width: 100vw;
+            background-image: url("https://th.bing.com/th/id/OIP.iXXJQDOBgXJReyAESkNNBQHaHa?rs=1&pid=ImgDetMain");
+            background-repeat: no-repeat;
+            background-size:200px 250px;
+            position: absolute;
+            top: 200px;
+            left: 620px;
+        }
+
+        #ephotography{
+            height: 100vh;
+            width: 100vw;
+            background-image: url("https://i.pinimg.com/originals/ce/ce/45/cece4598226f890e667ca4f297370331.jpg");
+            background-repeat: no-repeat;
+            background-size:200px 250px;
+            position: absolute;
+            top: 200px;
+            left: 920px;
+        }
+
+        #para2{
+            display: flex;
+            font-size: 20px;
+            justify-content: space-evenly;
+            position: absolute;
+            top: 1020px;
+        }
+
+        #heading2{
+            font-size: 30px;
+            position: absolute;
+            top: 1100px;
+            left: 100px;
+        }
+
+        #pws{
+            display: flex;
+            position: absolute;
+            top: 550px;
+            justify-content: space-evenly;
+        }
+
+        #theme{
+            height: 100vh;
+            width: 100vw;
+            background-image: url("https://th.bing.com/th/id/OIP.9h8Ou_PdK1DUxn6XvNxnZgHaJQ?rs=1&pid=ImgDetMain");
+            background-repeat: no-repeat;
+            background-size:200px 300px;
+            position: absolute;
+            top: 700px;
+            left: 150px;
+        }
+
+        #place{
+            height: 100vh;
+            width: 100vw;
+            background-image: url("https://th.bing.com/th/id/OIP.yxSQ12I9grVg3SIlDdwt8wAAAA?w=427&h=640&rs=1&pid=ImgDetMain");
+            background-repeat: no-repeat;
+            background-size:200px 300px;
+            position: absolute;
+            top: 700px;
+            left: 480px;
+        }
+
+        #dress{
+            height: 100vh;
+            width: 100vw;
+            background-image: url("https://th.bing.com/th/id/OIP.xZQM0YGFSv7Pktexw6SR7AAAAA?rs=1&pid=ImgDetMain");
+            background-repeat: no-repeat;
+            background-size:200px 300px;
+            position: absolute;
+            top: 700px;
+            left: 830px;
+        }
+
+        #para3{
+            display: flex;
+            font-size: 20px;
+            justify-content: space-evenly;
+            position: absolute;
+            top: 1570px;
+        }
+
+
+        #heading3{
+            font-size: 30px;
+            position: absolute;
+            top: 1650px;
+            left: 100px;
+        }
+
+
+        #wed1{
+            display: flex;
+            position: absolute;
+            top: 500px;
+            justify-content: space-evenly;
+        }
+
+        #cp{
+            height: 100vh;
+            width: 100vw;
+            background-image: url("https://i.pinimg.com/236x/24/16/d8/2416d81bcac83f2484fe4cb427c8e133.jpg");
+            background-repeat: no-repeat;
+            background-size:230px 250px;
+            position: absolute;
+            top: 1300px;
+            left: 20px;
+        }
+
+        #san{
+            height: 100vh;
+            width: 100vw;
+            background-image: url("https://i.pinimg.com/originals/72/b0/76/72b07689e5283defc4445e778333dd94.jpg");
+            background-repeat: no-repeat;
+            background-size:200px 250px;
+            position: absolute;
+            top: 1300px;
+            left: 320px;
+        }
+
+        #meh{
+            height: 100vh;
+            width: 100vw;
+            background-image: url("https://www.wedabout.com/blog/wp-content/uploads/2023/05/modern-and-full-back-hand-mehndi-design-for-bride.jpg");
+            background-repeat: no-repeat;
+            background-size:180px 250px;
+            position: absolute;
+            top: 1300px;
+            left: 620px;
+        }
+
+        #bs{
+            height: 100vh;
+            width: 100vw;
+            background-image: url("https://th.bing.com/th/id/OIP.38jmV0nK38k0WHKhiRFkGwHaHa?pid=ImgDet&w=175&h=175&c=7&dpr=1.5");
+            background-repeat: no-repeat;
+            background-size:200px 250px;
+            position: absolute;
+            top: 1300px;
+            left: 920px;
+        }
+
+        #wedpara1{
+            display: flex;
+            font-size: 20px;
+            justify-content: space-evenly;
+            position: absolute;
+            top: 2080px;
+        }
+
+
+
+
+        #wed2{
+            display: flex;
+            position: absolute;
+            top: 2000px;
+            justify-content: space-evenly;
+        }
+
+        #hal{
+            height: 100vh;
+            width: 100vw;
+            background-image: url("https://images.pexels.com/photos/18645485/pexels-photo-18645485/free-photo-of-indian-haldi-rashm.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+            background-repeat: no-repeat;
+            background-size:200px 250px;
+            position: absolute;
+            top: 200px;
+            left: 20px;
+        }
+
+        #res{
+            height: 100vh;
+            width: 100vw;
+            background-image: url("https://th.bing.com/th/id/OIP.UIqYmvMFMNILcPnwCl0AZAAAAA?rs=1&pid=ImgDetMain");
+            background-repeat: no-repeat;
+            background-size:200px 250px;
+            position: absolute;
+            top: 200px;
+            left: 320px;
+        }
+
+        #ka{
+            height: 100vh;
+            width: 100vw;
+            background-image: url("https://image.wedmegood.com/resized-nw/1300X/wp-content/uploads/2018/03/2V4A3149-2.jpg");
+            background-repeat: no-repeat;
+            background-size:230px 250px;
+            position: absolute;
+            top: 200px;
+            left: 620px;
+        }
+
+        #muh{
+            height: 100vh;
+            width: 100vw;
+            background-image: url("https://images.filmibeat.com/ph-big/2022/06/vishak-nair-jayapria-nair-narriage-photos_165483596220.jpg");
+            background-repeat: no-repeat;
+            background-size:200px 250px;
+            position: absolute;
+            top: 200px;
+            left: 920px;
+        }
+
+        #wedpara2{
+            display: flex;
+            font-size: 20px;
+            justify-content: space-evenly;
+            position: absolute;
+            top: 2480px;
+        }
+
+        #fb{
+            position: absolute;
+            top: 2580px;
+            left: 400px;
+            font-size: 35px;
+        }
+
+       
+    </style>
+    
+</head>
+<body>
+    <nav>
+        <div>HOME</div>
+        <div>HELP</div>
+        <div>LOGOUT</div>
+    </nav>
+     <br><br><brbr><br>
+    <CENTER><h1>DESTINY CONSIST THE MENU OF....❤️</h1></CENTER>
+<br><br>
+    <!-- <div> -->
+        <!-- <a href="https://www.wedmegood.com/vendors/all/wedding-cards/">
+            <div id="engdress"></div>
+            <div id="wc"></div>
+            <div id="meh"></div>
+
+        </a>
+    </div> -->
+
+    <CENTER><h2 style="font-size: 30px">-------------------------------------ENGAGEMENT----------------------------------------</h2></CENTER>
+
+    <div id="engagement1">
+        <a href="https://www.greenvelope.com/designs/engagement-invitations"><div id="ecard"></div></a>
+
+
+        <a href="https://www.bing.com/images/search?q=engagement%20dress%20for%20bride%20and%20groom&qs=n&form=QBIR&sp=-1&lq=0&pq=engagement%20dress%20for%20bride%20and%20groom&sc=9-36&cvid=A6D63F667CB441F09065231A4523875B&ghsh=0&ghacc=0&first=1"><div id="edress"></div></a>
+
+
+       <a href="https://www.bing.com/images/search?q=engagement+hairstyle&form=IQFRML&first=1&cw=1217&ch=596"><div id="ehairstyle"></div></a>
+
+
+        <a href="https://www.bing.com/images/search?q=engagement%20decoration%20&qs=n&form=QBIRMH&sp=-1&lq=0&sc=0-0&cvid=81F543A9109F4222A77560FD0B44DA3B&ghsh=0&ghacc=0&first=1"><div id="edecoration"></div></div></a>
+
+    </div>
+
+
+    <div id="para1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+        <div>INVETATION</div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+        <DIV>COSTUMES</DIV>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+        <DIV>HAIRSTYLE</DIV>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+        <DIV>DECORATION</DIV>
+    </div>
+
+    <div id="engagement2">
+
+
+        <a href="https://www.happywedding.app/blog/latest-indian-wedding-food-menu-list/"><div id="efood"></div></a>
+
+        <a href="https://www.bing.com/images/search?q=engagement%20rings%20pattern%20for%20couples&FORM=IQFRML"><div id="ering"></div></a>
+
+
+        <a href="https://www.bing.com/images/search?q=engagement+cake&qpvt=engagement+cake&form=IQFRML&first=1"><div id="ecakes"></div></a>
+
+
+        <a href="https://www.bing.com/images/search?q=engagement+photoshoots+traditionally&qs=n&form=QBIRMH&sp=-1&ghc=1&lq=0&pq=engagement%20photoshoots%20traditionally&sc=0-36&cvid=6544E3F3935345F8A5C8E0A0184D4677&ghsh=0&ghacc=0&first=1&cw=1217&ch=581"><div id="ephotography"></div></a>
+
+
+    </div>
+
+
+    <div id="para2">
+
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+        <div>FOOD</div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+        <DIV>RING</DIV>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+
+        <DIV>CAKE</DIV>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+        <DIV>PHOTOGRAPHY</DIV>
+    </div>
+
+
+    <br><br>
+
+    <CENTER><h2 id="heading2">---------------------------------PRE-WEEDING SHOOT -------------------------------</h2></CENTER>
+
+    <div id="pws">
+
+
+        <a href="https://www.bing.com/images/search?q=%20pre%20weeding%20theme&qs=n&form=QBIR&sp=-1&lq=0&pq=%20pre%20weeding%20theme&sc=10-18&cvid=D12ADE0C4A164066863D8F0D57525A2E&ghsh=0&ghacc=0&first=1"><div id="theme"></div></a>
+
+
+        <a href="https://www.treebo.com/blog/pre-wedding-shoot-in-india/"><div id="place"></div></a>
+
+
+       <a href="https://www.bing.com/images/search?q=pre+wedding+shoot+outfit&qpvt=pre+weeding+shoot+outfit&form=IGRE&first=1"><div id="dress"></div></a>
+
+
+    </div>
+
+    <div id="para3">
+
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+        <div>THEME</div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+        <DIV>PLACE</DIV>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+        <DIV>OUTFIT</DIV>
+
+    </div>
+    <br><br>
+
+    <CENTER><h2 id="heading3">-----------------------------------------WEEDING--------------------------------------------</h2></CENTER>
+
+
+    <!-- chapra pooje . snagetha  , mehindi , bale shastra , resption ,kanya agamana, dhare , sapthapadi -->
+
+    <div>
+
+        <div id="wed1">
+
+
+            <a href="chapra.html"><div id="cp"></div></a>
+    
+    
+            <a href="sangetha.html"><div id="san"></div></a>
+    
+    
+           <a href="mehindi.html"><div id="meh"></div></a>
+    
+    
+            <a href="bale.html"><div id="bs"></div></div></a>
+    
+        </div>
+    
+    
+        <div id="wedpara1">
+    
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    
+            <div>CHAPRA</div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    
+            <DIV>SANGEETHA</DIV>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    
+            <DIV>MEHINDI</DIV>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    
+            <DIV>BHALE-SHASTRA</DIV>
+        </div>
+    
+        <div id="wed2">
+    
+    
+            <a href="haldi.html"><div id="hal"></div></a>
+    
+            <a href="Reception.html"><div id="res"></div></a>
+    
+    
+            <a href="https://www.bing.com/images/search?q=brideand%20groom%20entry%20decoration&form=IQFRML&first=1"><div id="ka"></div></a>
+    
+    
+            <a href="https://www.bing.com/images/search?q=engagement+photoshoots+traditionally&qs=n&form=QBIRMH&sp=-1&ghc=1&lq=0&pq=engagement%20photoshoots%20traditionally&sc=0-36&cvid=6544E3F3935345F8A5C8E0A0184D4677&ghsh=0&ghacc=0&first=1&cw=1217&ch=581"><div id="muh"></div></a>
+    
+    
+        </div>
+    
+    
+        <div id="wedpara2">
+    
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    
+    
+            <div>HALADHI</div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    
+    
+            <DIV>RESCEPTION</DIV>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    
+    
+    
+            <DIV>KANYA-AGAMANA</DIV>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+            <DIV>MUHURTHA</DIV>
+
+
+        </div>
+    
+    
+    </div>
+
+    <!-- <div id="wed3">
+    
+    
+        <a href="https://www.happywedding.app/blog/latest-indian-wedding-food-menu-list/"><div id="sp"></div></a>
+
+        <a href="https://www.bing.com/images/search?q=engagement%20rings%20pattern%20for%20couples&FORM=IQFRML"><div id="">foo</div></a>
+
+    </div> -->
+
+    <!-- <div id="wedpara3">
+    
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+        <div>SAPTHAPADI</div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+        <DIV>FOOD</DIV>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</div> -->
+
+
+<br><br>
+
+
+<a href="feedback.html"><CENTER><h1 id="fb">FEEDBACK-FORM</h1></CENTER></a>
+
+</body>
+</html>

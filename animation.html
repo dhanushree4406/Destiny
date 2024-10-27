@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        #boy{
+            height: 100vh;
+            width: 100vw;
+            background-image: url("animationboy.png");
+            background-repeat: no-repeat;
+            background-size: 500px 55vh;
+             position: absolute;
+            left: 23%; 
+             /* bottom: 102px;  */
+            animation-name: boyride;
+            animation-duration: 5s;
+            animation-timing-function: linear;
+            animation-delay: 0s;
+            /* animation-iteration-count:infinite; */
+        }
+
+        @keyframes boyride{
+            from{
+                position: absolute;
+                left: 0;
+            }
+            to{
+                position: absolute;
+                left: 23%;
+            }
+        }
+  
+        #girl{
+            height: 100vh;
+            width: 100vw;
+            background-image: url("animationgirl.png");
+            background-repeat: no-repeat;
+            background-size: 500px 55vh;
+            position: absolute;
+            /* left: 700px; */
+            left: 39%;
+            top: 0px;
+            animation-name: girlride;
+            animation-duration: 10s;
+            animation-timing-function: linear;
+            animation-delay: 1s;
+            /* animation-iteration-count: calc(1); */
+        }
+
+        @keyframes girlride{
+            from{
+                position: absolute;
+                top: 0px;
+                right: 0px;
+            }
+            to{
+                position: absolute;
+                left: 39%;
+            }
+        }
+        
+        button{
+            width: 400px;
+            padding: 2px;
+            border: 2px solid red;
+            border-radius: 20px;
+            font-size: 10px;
+            background-color: green;
+            position: absolute;
+            top: 500px;
+            left: 450px;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="animation">
+        <div id="boy"></div>
+        <div id="girl"></div>
+    </div>
+
+    <a href="templete.html"><button><center><h1>GET-STARTED</h1></center></button></a>
+</body>
+</html>
